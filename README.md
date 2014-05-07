@@ -1,6 +1,13 @@
 EMPywer
 =======
 
-Simulating congested electricity networks using financial transmission rights.
+Finding Nash equilibria in congested electricity networks using financial transmission rights.
 
-Strongly WIP, only warrants given are of confusion and inefficient coding. 
+Master thesis project @ TU Delft, feb-june 2014.
+
+Strongly WIP, only warrants given are of confusion and inefficient coding. Prepare for global functions in class functions, inefficient loops, and more.
+
+Required:
+cvxpy
+lrs-nash
+
