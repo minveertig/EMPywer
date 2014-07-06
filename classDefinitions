@@ -15,7 +15,7 @@ np.set_printoptions(threshold=np.nan, suppress=True, linewidth=10000)
 range1 = lambda start, end: range(start, end+1)
 xrange1 = lambda start, end: xrange(start, end+1)
 
-
+ 
 class Node(object):
     """Define superclass for sources and sinks, so that they may share id"""
     _ID = 0
