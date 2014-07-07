@@ -64,10 +64,10 @@ class Producer(object):
                     else:
                         expected_quantity = 0
                     intercept = self.FTR_expectations[x,y] + 0.01 * expected_quantity
-                    new_eps = [round(intercept,2), 0.01, x, y]
+                    new_eps = [round(intercept,2), 0.005, x, y]
                     #print "I expect to need", expected_quantity,"at price",self.FTR_expectations[x,y]
                 else:
-                    new_eps = [round(self.FTR_expectations[x,y],2), 0.01, x, y]
+                    new_eps = [round(self.FTR_expectations[x,y],2), 0.005, x, y]
                 epsilon_list.append(new_eps)
             self.original_eps = epsilon_list
             self.eps = epsilon_list
