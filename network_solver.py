@@ -121,10 +121,10 @@ def solve_network(producers,network,policy="none"):
     total_Columnplayer_profit = Columnplayer.calculate_profit(gv.LMP)
 
     #Merchandise surplus
-    K_m = (congestion_rent - comp_congestion_rent) / congestion_rent
+    K_m = (congestion_rent - comp_congestion_rent) / comp_congestion_rent
 
     #Consumer surplus
-    K_d = (consumer_benefit - comp_consumer_benefit) / consumer_benefit
+    K_d = (consumer_benefit - comp_consumer_benefit) / comp_consumer_benefit
 
     #Producer surplus
     K_h = (total_Rowplayer_profit - comp_Rowplayer_profit) / comp_Rowplayer_profit
